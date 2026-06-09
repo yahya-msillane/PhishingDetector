@@ -1,0 +1,101 @@
+id,text,url_present,label
+1,Your account has been suspended. Click https://secure-login.xyz/verify now,1,phishing
+2,"Hey, are we still meeting at 6pm?",0,safe
+3,URGENT: PayPal limited your account. Confirm identity at http://paypa1.com/,1,phishing
+4,Your package will arrive tomorrow. Track: https://tracking.usps.com,1,safe
+5,Congratulations! You won a free iPhone. Claim here: http://win-prize.tk/claim,1,phishing
+6,Reminder: Doctor appointment on Friday at 10am,0,safe
+7,Bank of America: Unusual login detected. Verify now: https://bank-verify.ga,1,phishing
+8,Netflix: Your payment failed. Update billing: http://netf1ix.xyz/billing,1,phishing
+9,See photos from Sarah's wedding: https://photos.google.com/share,1,safe
+10,Free $1000 Walmart gift card! Click http://gift-card.ml now,1,phishing
+11,Your DHL shipment #DH12345 has been delayed,0,safe
+12,Amazon: Your order #9876 has shipped,0,safe
+13,Security alert: Someone tried to access your iCloud. Lock your account: http://icloud-secure.cf,1,phishing
+14,Meeting cancelled for tomorrow,0,safe
+15,ATTENTION: Your WhatsApp verification code is 847291,0,phishing
+16,Invoice #INV-2025 attached. Please pay by Friday,0,safe
+17,We noticed a login from an unknown device. Verify now: http://faceb00k-login.xyz,1,phishing
+18,Dinner tonight at 8pm?,0,safe
+19,Your Apple ID is about to expire. Update here: http://app1eid.ga,1,phishing
+20,Microsoft account unusual sign-in. Click to secure: http://micros0ft-verify.tk,1,phishing
+21,Your flight confirmation #FL123,0,safe
+22,Free Robux generator! http://robux-free.xyz,1,phishing
+23,Don't forget to vote in tomorrow's election,0,safe
+24,PayPal: We need to verify your business account. Click http://paypal-verify.cf,1,phishing
+25,"Your order has been shipped, tracking #TRK998",0,safe
+26,Refund of $299 is pending. Claim now: http://refund-claim.xyz,1,phishing
+27,Telegram code: 482103. Do not share this with anyone.,0,phishing
+28,Bank transfer received: $1500 from John,0,safe
+29,Netflix subscription expiring today! Renew here: http://netflix-billing.tk,1,phishing
+30,Your Amazon delivery is delayed. Click to reschedule: http://amaz0n-delivery.xyz,1,phishing
+31,Updated meeting link: https://zoom.us/j/123456,1,safe
+32,Urgent: Wire transfer needed for invoice #INV456,0,phishing
+33,Your iCloud storage is full. Upgrade now: http://icloud-upgrade.ga,1,phishing
+34,Walmart order #WM5678 is ready for pickup,0,safe
+35,You have been selected for a free Amazon gift card: http://amazon-gift.xyz,1,phishing
+36,Reminder: Your prescription is ready,0,safe
+37,Google: Someone has your password. Secure your account: http://google-secure.tk,1,phishing
+38,Monthly statement is available,0,safe
+39,WhatsApp: Your account will be deleted. Verify here: http://whatsapp-verify.ga,1,phishing
+40,Your package was returned. Update address: http://dhl-reship.xyz,1,phishing
+41,Happy birthday! Here's a 20% discount code,0,safe
+42,Security update required for your bank account. Click to confirm: http://bankofamerica-verify.cf,1,phishing
+43,Your E‑ZPass toll invoice is due,0,phishing
+44,Please review your recent purchase,0,safe
+45,Instagram: Someone tried to log in from Mumbai. Secure now: http://insta-secure.xyz,1,phishing
+46,Your COVID‑19 test results are ready: http://covid-results.tk,1,phishing
+47,Verify your phone number to keep using WhatsApp: http://whatsapp-verify.xyz,1,phishing
+48,Job offer from XYZ Corp – $800/week remote,0,safe
+49,Your PayPal account is limited. Confirm your identity: http://paypal-security.ga,1,phishing
+50,Reminder: Car insurance renewal in 5 days,0,safe
+51,You have a new message from HR,0,safe
+52,ATTENTION: Your Social Security number has been suspended. Click to appeal: http://ssn-verify.cf,1,phishing
+53,Free $500 Walmart gift card – first 100 respondents: http://walmart-free.tk,1,phishing
+54,Your Netflix subscription will be cancelled today. Update billing: http://netflix-renew.xyz,1,phishing
+55,We detected malware on your device. Click to remove: http://google-clean.ga,1,phishing
+56,DHL: Your package cannot be delivered. Update address: http://dhl-track.tk,1,phishing
+57,Low balance alert: Please deposit $200 to avoid fees,0,safe
+58,Your Amazon Prime membership has expired. Renew: http://amazon-prime.xyz,1,phishing
+59,Get a free iPhone 15 by taking this survey: http://survey-free.tk,1,phishing
+60,Your bank account is overdrawn. Click to review: http://chase-alert.ga,1,phishing
+61,Invoice #INV-2026 is past due. Pay now,0,safe
+62,Microsoft: Your email password expires today. Keep same password: http://microsoft-keep.xyz,1,phishing
+63,You have received a secure message from ADP,0,safe
+64,Your PayPal transaction of $999.99 was suspicious. Verify: http://paypal-fraud.ga,1,phishing
+65,We miss you! Come back for 20% off,0,safe
+66,Your Facebook account was flagged. Appeal here: http://facebook-appeal.xyz,1,phishing
+67,Verification code for your account: 845210,0,phishing
+68,Meeting rescheduled to 3pm,0,safe
+69,You won a $1000 Amazon voucher! Claim now: http://voucher-claim.tk,1,phishing
+70,Notice: Your driver's license is expiring soon,0,safe
+71,Chase: Your credit card has been locked. Unlock: http://chase-unlock.ga,1,phishing
+72,Your order #12345 is out for delivery,0,safe
+73,We need to confirm your email address: http://confirm-email.xyz,1,phishing
+74,Your domain registration will expire in 3 days,0,safe
+75,COVID‑19 stimulus payment: Click to claim your $1400: http://stimulus-claim.tk,1,phishing
+76,Important: Your phone number must be re‑verified,0,phishing
+77,Your latest bank statement is ready,0,safe
+78,Microsoft 365 subscription expiring. Renew here: http://microsoft-renew.ga,1,phishing
+79,Your package was lost – claim insurance: http://usps-claim.xyz,1,phishing
+80,Reminder: Doctor appointment tomorrow 9am,0,safe
+81,You have a new voicemail from +1234567890,0,safe
+82,Your Apple ID was used to sign in on a new device. Not you? http://apple-id.xyz,1,phishing
+83,Unusual login attempt on your Instagram. Secure now: http://insta-secure.tk,1,phishing
+84,Your Netflix account is on hold. Update payment method: http://netflix-payment.ga,1,phishing
+85,Your Amazon order has been canceled. Click to reactivate: http://amazon-reactivate.xyz,1,phishing
+86,Free $500 best buy gift card: http://bestbuy-free.tk,1,phishing
+87,Your iCloud backup is failing. Click to fix: http://icloud-fix.ga,1,phishing
+88,We have a surprise for you! Click here: http://surprise-link.xyz,1,phishing
+89,Reminder: Your car's warranty is about to expire,0,phishing
+90,"Your Facebook password was changed. If not you, revert here: http://fb-revert.xyz",1,phishing
+91,Special offer: 50% off everything today only,0,safe
+92,Your PayPal account has been permanently suspended. Appeal: http://paypal-appeal.tk,1,phishing
+93,Your order from Target is ready for pickup,0,safe
+94,You have a new direct message from @official_bank,0,safe
+95,Important update to our terms of service. Click to accept: http://tos-update.ga,1,phishing
+96,Your Google account has been hacked. Recover here: http://google-recover.xyz,1,phishing
+97,You received a payment of $250 via PayPal,0,safe
+98,Your Netflix password was changed. Click to cancel: http://netflix-cancel.tk,1,phishing
+99,We have a delivery for you from Amazon,0,safe
+100,Your Instagram account will be deleted. Verify now: http://insta-verify.ga,1,phishing

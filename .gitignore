@@ -1,0 +1,26 @@
+# Android generated files
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Android Studio
+*.temp
+*.tmp
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# OS metadata
+Thumbs.db

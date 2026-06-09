@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E21">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛡️"
+            android:textSize="52sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phishing Detector"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dataset • PDF Report • Real-time analysis"
+            android:textSize="12sp"
+            android:textColor="#8888AA"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Input Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="#1A1E3A"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paste SMS, Email or URL"
+                    android:textColor="#8888AA"
+                    android:textSize="11sp"
+                    android:textAllCaps="true"
+                    android:layout_marginBottom="8dp"/>
+
+                <EditText
+                    android:id="@+id/inputText"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:hint="e.g. URGENT: Verify your account now! Click http://secure-login.xyz/confirm"
+                    android:gravity="top"
+                    android:padding="12dp"
+                    android:background="#0D1128"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#444466"
+                    android:textSize="13sp"
+                    android:inputType="textMultiLine"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Buttons Row (now 3 buttons) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/analyzeBtn"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="2"
+                android:text="🔍 ANALYZE"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:backgroundTint="#5C6BC0"
+                android:layout_marginEnd="6dp"/>
+
+            <Button
+                android:id="@+id/generateReportBtn"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:text="📄 REPORT"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:backgroundTint="#4CAF50"
+                android:layout_marginEnd="6dp"/>
+
+            <Button
+                android:id="@+id/clearBtn"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:text="Clear"
+                android:textColor="#AAAACC"
+                android:textSize="13sp"
+                android:backgroundTint="#1A1E3A"/>
+        </LinearLayout>
+
+        <!-- Result Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/resultCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="#1A1E3A"
+            app:cardElevation="8dp"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/resultLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:padding="8dp"/>
+
+                <ProgressBar
+                    android:id="@+id/riskBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="8dp"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressTint="#E74C3C"
+                    android:progressBackgroundTint="#2A2E4A"/>
+
+                <TextView
+                    android:id="@+id/mlScoreText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="11sp"
+                    android:textColor="#6666AA"
+                    android:gravity="center"
+                    android:layout_marginBottom="12dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#2A2E4A"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:id="@+id/scoreText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#AAAACC"
+                    android:lineSpacingExtra="5dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- History -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RECENT ANALYSES"
+            android:textColor="#8888AA"
+            android:textSize="11sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ListView
+            android:id="@+id/historyList"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:divider="#1A1E3A"
+            android:dividerHeight="1dp"/>
+
+    </LinearLayout>
+</ScrollView>
